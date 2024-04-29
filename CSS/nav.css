@@ -1,24 +1,56 @@
-.btn-login-sec{
-    width:200px;
-    height:40px;
-    cursor:pointer;
+.nav_con{
+    display:flex;
+    flex-direction:row;
+    height: 300px;
+}
+
+.nav_div_dwn{
+    padding-top:30px;   
+}
+
+.col-3{
+    flex-basis:33.3%;
+}
+
+.col-2{
+    flex-basis:50%;
+}
+
+
+.nev_login{
+    padding-left:100px;
+}
+.nev_cont{
+   padding-left:200px;
+}
+
+.cont_li{
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+}
+
+.con_li_sp{
+    padding-left:120px;
+}
+
+.nav_a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+}
+.lb{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 15);
+    font-weight:bold;
     border:none;
-    background: linear-gradient(rgba(25,25,255,0.4),rgba(25,25,255,0.4));
-    border-radius:20px;
-    font-size:20px;
-    color:#f8f8f8;
-    font-weight:600;
-    transition: 0.2s ease-in-out;
+    transition: 0.2s;
 }
-.login-div{
-    position: fixed;
-    left:1460px;
+.lb:hover{
+    background-color:rgb(5, 5, 60);
+    color:aliceblue;
 }
-.login-btn:hover{
-    border: 2px solid rgba(25,25,255,0.4);
-    color:rgba(25,25,255,0.4);
-    background: transparent;
-}
-.signup-btn:hover{
-    letter-spacing: 5px;
-}
+
+

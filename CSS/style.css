@@ -2,17 +2,14 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    box-sizing:border-box;
 }
-.row{
-    display:flex;
-    padding:10px;
+body{
+    background-image:url(../assest/img/uni2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:61.5vh;
+
 }
-.col-3{
-    flex-basis:33.3%;
-}
-.col-2{
-    flex-basis:50%;
-}
-.col-4{
-    flex-basis:25%;
-}
+
